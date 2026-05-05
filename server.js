@@ -83,5 +83,5 @@ app.get("/", (req, res) => {
   res.send("FitControl Backend online");
 });
 app.listen(3000, () => {
-  console.log('Servidor rodando em http://https://fitcontrol-backend-vo77.onrender.com');
+  console.log('Servidor rodando em "https://fitcontrol-backend-wo77.onrender.com");
 });
