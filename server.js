@@ -82,6 +82,8 @@ app.delete('/api/alunos/:id', (req, res) => {
 app.get("/", (req, res) => {
   res.send("FitControl Backend online");
 });
-app.listen(3000, () => {
-  console.log('Servidor rodando em "https://fitcontrol-backend-wo77.onrender.com");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
 });
