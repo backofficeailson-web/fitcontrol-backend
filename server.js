@@ -79,7 +79,9 @@ app.delete('/api/alunos/:id', (req, res) => {
 });
 
 // ================= SERVER =================
-
+app.get("/", (req, res) => {
+  res.send("FitControl Backend online");
+});
 app.listen(3000, () => {
   console.log('Servidor rodando em http://localhost:3000');
 });
