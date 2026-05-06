@@ -1,11 +1,14 @@
 {
   "name": "fitcontrol-backend",
   "version": "1.0.0",
-  "description": "FitControl Pro - Core Fase 1",
+  "description": "FitControl Pro - Fase 1 Core",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": "20.x"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
